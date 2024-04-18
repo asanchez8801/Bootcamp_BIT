@@ -56,4 +56,11 @@ if (numero1 > numero2) {
 
 //Calificaciones en Javascript 
 
+//hacer una funcion que reciba un nombre por parte del usuario. si existe el nombre saludar por el nombre si no saludar hola desconocido.
+
+function miFuncion(nombre = "desconocido"){
+console.log("Hola " + nombre);
+}
+miFuncion ();
+miFuncion('Albeiro');
 
