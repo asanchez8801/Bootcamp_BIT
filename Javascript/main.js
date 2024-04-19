@@ -29,12 +29,4 @@ function handleSubmit(event) {
     console.log(credentials);
 }
 
-
-
-
-
-
-
-
-
 /* ejecucion codigo */
