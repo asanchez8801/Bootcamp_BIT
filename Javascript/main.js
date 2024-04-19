@@ -14,15 +14,19 @@ d.addEventListener('DOMContentLoaded', ()=>{
 
 /* funciones */
 function eventListeners() {
-console.log('works!');
     $signUp.addEventListener('submit', handleSubmit);
 }
 
 function handleSubmit(event) {
     event.preventDefault();
     
-    const formData = new FormData($signUp);
-    console.log(formData);
+    const credentials = {
+        id:"fakeId1",
+        name: $signUp.name.value,
+        email: $signUp.email.value,
+        password: $signUp.password.value,
+    }
+    console.log(credentials);
 }
 
 
