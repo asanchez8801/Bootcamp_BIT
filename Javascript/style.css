@@ -1,0 +1,25 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container {
+  padding: 1rem;
+}
+
+/* .signup {
+  border: 5px solid greenyellow;
+} */
+
+.signup fieldset {
+  display: flex;
+  flex-direction: column;
+}

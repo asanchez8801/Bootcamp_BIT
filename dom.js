@@ -1,4 +1,4 @@
-'use sctrict';
+/* 'use sctrict';
 const d = document;
 const $root = d.getElementById('root');
 const $h1 = d.createElement('h1');
@@ -34,4 +34,4 @@ $p.textContent = contadorDeClicks;
 $btn3.addEventListener('click' , () => {
 contadorDeClicks=0;
 $p.textContent = contadorDeClicks;
-});
+}); */
